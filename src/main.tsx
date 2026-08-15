@@ -1,5 +1,4 @@
 import "@/styles/global.css";
-
 import { createRoot } from 'react-dom/client'
 import { BrowserRouter, Routes, Route } from 'react-router';
 
