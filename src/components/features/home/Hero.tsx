@@ -1,3 +1,4 @@
+
 import { NavLink } from "react-router";
 import { Button } from "@/components/ui/button";
 import { ArrowRight, Mail } from "lucide-react";
@@ -28,11 +29,11 @@ export function Hero() {
         <div className="space-y-4">
           <h1 className="text-4xl font-extrabold tracking-tight sm:text-5xl md:text-6xl lg:text-7xl text-foreground">
             Hi, I'm{" "}
-            <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 via-indigo-600 to-purple-600">
+            <span className="text-transparent bg-clip-text bg-linear-to-r from-blue-600 via-indigo-600 to-purple-600">
               Felix M. Morales Jr.
             </span>
           </h1>
-          <p className="max-w-[600px] text-muted-foreground text-base sm:text-lg leading-relaxed">
+          <p className="max-w-150 text-muted-foreground text-base sm:text-lg leading-relaxed">
             Aspiring web developer passionate about learning, building, and
             growing in the world of web development.
           </p>
@@ -89,7 +90,7 @@ export function Hero() {
       <div className="flex justify-center items-center mt-6 lg:mt-0 z-10">
         <div className="relative group">
           {/* Subtle image glow behind frame */}
-          <div className="absolute -inset-1 rounded-3xl bg-gradient-to-r from-blue-600 to-indigo-600 opacity-20 blur-xl group-hover:opacity-40 transition duration-500" />
+          <div className="absolute -inset-1 rounded-3xl bg-linear-to-r from-blue-600 to-indigo-600 opacity-20 blur-xl group-hover:opacity-40 transition duration-500" />
           
           <div className="relative p-2 rounded-3xl bg-background/80 border border-border/60 shadow-2xl backdrop-blur-sm">
             <img
@@ -97,7 +98,7 @@ export function Hero() {
               alt="Felix M. Morales Jr."
               width={500}
               height={500}
-              className="rounded-2xl object-cover w-full max-w-[360px] sm:max-w-[400px] transition-transform duration-500 group-hover:scale-[1.01]"
+              className="rounded-2xl object-cover w-full max-w-90 sm:max-w-100 transition-transform duration-500 group-hover:scale-[1.01]"
             />
           </div>
         </div>
